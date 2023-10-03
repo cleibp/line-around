@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, #26d0ce, #1a2980);
+    color: #e1e1e1;
+    font-family: helvetica, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    color: #009FD1;
+}
+
+.line-around {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-around:before,
+.line-around:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid currentColor;
+    margin: auto;
+}
+
+.line-around:before {
+    margin-right: 10px
+}
+
+.line-around:after {
+    margin-left: 10px
+}
