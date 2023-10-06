@@ -25,7 +25,7 @@ Exemplificação de Linhas ao redor
 ```sh
 .
 ├── README.md
-└── index.html
+├── index.html
 └── style.css
 ```
 
